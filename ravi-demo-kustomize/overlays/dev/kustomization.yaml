@@ -8,9 +8,6 @@ resources:
 #   - name: varisacr.azurecr.io/bq-bc/bq-print-service
 #     digest: sha256:50d83d86c791eb9792bb500740306153c515d1d7b65aefb0efd08d85c96ef7ce
 configMapGenerator:
-  - literals:
-      - NEW_RELIC_APP_NAME=dev-bq-print-service
-    name: bq-print-service-marketplace-properties-cm-env
   - name: bq-print-service-properties-cm
     files:
       - .env.config.properties
