@@ -10,4 +10,4 @@ resources:
 configMapGenerator:
   - name: bq-print-service-properties-cm
     files:
-      - .env.config.properties
+    - .env.config.properties
