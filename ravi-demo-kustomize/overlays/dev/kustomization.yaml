@@ -11,6 +11,3 @@ configMapGenerator:
   - literals:
       - NEW_RELIC_APP_NAME=dev-bq-print-service
     name: bq-print-service-marketplace-properties-cm-env
-  - name: bq-print-service-properties-cm
-    files:
-      - .env.config.properties
